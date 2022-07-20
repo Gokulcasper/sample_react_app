@@ -1,0 +1,22 @@
+.my_app_container {
+  background-color: aqua;
+  color: black;
+  /* padding: 10px; */
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: start; */
+}
+.body_image_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.body_image {
+  height: 40vh;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px;
+}
